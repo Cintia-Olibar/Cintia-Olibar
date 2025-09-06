@@ -2,32 +2,21 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 3 * * *" # atualiza todo dia ~00:00 BRT
+    - cron: "0 3 * * *"  # roda todo dia ~00:00 BRT
   workflow_dispatch:
 
 permissions:
-  contents: write  # importante para conseguir fazer push
+  contents: write  # permite o push do commit gerado
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: false  # deixa o action usar o token explicitamente
-
-      - name: Configura identidade do Git
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-      - name: Generate cards
-        uses: vn7n24fzkq/github-profile-summary-cards-action@release
+      - uses: actions/checkout@v4   # deixa o token configurado no "origin"
+      - uses: vn7n24fzkq/github-profile-summary-cards-action@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # usa o token do Actions
         with:
-          USERNAME: Cintia-Olibar
+          USERNAME: Cintia-Olibar   # exatamente como está no GitHub
           THEME: dracula
-          BRANCH_NAME: main   # se seu default branch for outro, ajuste aqui
+          # BRANCH_NAME: main  # (opcional: só coloque se seu default NÃO for "main")
