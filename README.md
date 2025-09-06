@@ -1,5 +1,4 @@
-## 👩🏽‍💻Oiii!!!
-
+## 
 Sou **Cintia Oliveira**, 🎓estudante de **Análise e Desenvolvimento de Sistemas (4º período) na Faculdade COTEMIG**.
 
 Sou uma pessoa comunicativa, colaborativa e gosto de transformar ideias em soluções simples e úteis.
@@ -17,7 +16,7 @@ Sou uma pessoa comunicativa, colaborativa e gosto de transformar ideias em solu�
 
 
 Valorizo equilíbrio e criatividade também fora do ambiente acadêmico e profissional.
-- Além da tela: amo 🌿 natureza, 🐾 animais, 🎬 filmes, 🏐 esportes, 🎵 música, 🎮 videogame e 🍽️ gastronomia.
+- 💻Além da tela: amo 🌿 natureza, 🐾 animais, 🎬 filmes, 🏐 esportes, 🎵 música, 🎮 videogame e 🍽️ gastronomia.
 
   ### 📊 GitHub Stats
 <div align="center">
