@@ -1,7 +1,8 @@
 ## 👩🏽‍💻Oiii!!!
 
 Sou **Cintia Oliveira**, 🎓estudante de **Análise e Desenvolvimento de Sistemas (4º período) na Faculdade COTEMIG**.
-Sou comunicativa, colaborativa e gosto de transformar ideias em soluções simples e úteis.
+
+Sou uma pessoa comunicativa, colaborativa e gosto de transformar ideias em soluções simples e úteis.
 
 ### O que levo comigo
 
