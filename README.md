@@ -39,6 +39,10 @@ Valorizo equilíbrio e criatividade também fora do ambiente acadêmico e profis
   <a href="https://www.linkedin.com/in/cintia-oliveira-6291b4176/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   
 </div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cintia-Olibar/Cintia-Olibar/output/snake-dark.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Cintia-Olibar/Cintia-Olibar/output/snake.svg">
+</picture>
 
 
 <!--
