@@ -1,14 +1,20 @@
 name: 🐍 Snake – Contribution Grid
 
 on:
-  # meia-noite de Brasília ≈ 03:00 UTC
+  # roda todo dia às 00:00 (Brasília ≈ 03:00 UTC)
   schedule:
     - cron: "0 3 * * *"
+  # permite disparar manualmente em Actions > Run workflow
   workflow_dispatch:
+
+# >>> necessário para criar/atualizar a branch "output"
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Generate snake SVG
         uses: Platane/snk@v3
