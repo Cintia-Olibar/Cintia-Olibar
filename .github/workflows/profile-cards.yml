@@ -6,13 +6,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # importante para conseguir fazer push
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false  # deixa o action usar o token explicitamente
+
+      - name: Configura identidade do Git
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
       - name: Generate cards
         uses: vn7n24fzkq/github-profile-summary-cards-action@release
@@ -21,4 +30,4 @@ jobs:
         with:
           USERNAME: Cintia-Olibar
           THEME: dracula
-          BRANCH_NAME: main   # onde salvar os SVGs
+          BRANCH_NAME: main   # se seu default branch for outro, ajuste aqui
