@@ -2,21 +2,21 @@ name: Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # roda todo dia ~00:00 BRT
+    - cron: "0 3 * * *"  # roda diariamente ~00:00 BRT
   workflow_dispatch:
 
 permissions:
-  contents: write  # permite o push do commit gerado
+  contents: write  # precisa para fazer o push dos SVGs
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4   # deixa o token configurado no "origin"
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards-action@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # usa o token do Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          USERNAME: Cintia-Olibar   # exatamente como está no GitHub
+          USERNAME: Cintia-Olibar
           THEME: dracula
-          # BRANCH_NAME: main  # (opcional: só coloque se seu default NÃO for "main")
+          # BRANCH_NAME: main  # deixe assim se seu default é main
