@@ -1,4 +1,5 @@
-Oi!!! Sou **Cintia Oliveira**, 🎓estudante de **Análise e Desenvolvimento de Sistemas (4º período) na Faculdade COTEMIG**.
+# Olá, Tudo bem?
+Sou **Cintia Oliveira**, 🎓estudante de **Análise e Desenvolvimento de Sistemas (4º período) na Faculdade COTEMIG**.
 
 Sou uma pessoa comunicativa, colaborativa e gosto de transformar ideias em soluções simples e úteis.
 
