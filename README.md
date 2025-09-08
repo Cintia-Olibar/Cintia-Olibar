@@ -18,7 +18,7 @@ Sou uma pessoa comunicativa, colaborativa e gosto de transformar ideias em solu�
 Valorizo equilíbrio e criatividade também fora do ambiente acadêmico e profissional.
 - 💻Além da tela: amo 🌿 natureza, 🐾 animais, 🎬 filmes, 🏐 esportes, 🎵 música, 🎮 videogame e 🍽️ gastronomia.
 
-  ### 📊 GitHub Stats
+
 <div align="center">
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Cintia-Olibar&theme=dracula" alt="Stats">
   <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Cintia-Olibar&theme=dracula" alt="Most Used Languages">
